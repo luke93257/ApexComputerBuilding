@@ -4,30 +4,50 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         
         <title>Home Page</title>
+        <link rel="stylesheet" href="styles.css">
     <body>
         <div class="container">
         <h1><img src="ApexComputerBuilding.png" alt="logo" width="200" height="150"> </h1>
+        <div class="search-bar">
         <form action="#" method="get">
             <input type="text" name="search" placeholder="Explore Builds, Tutorials, and more!">
             <input type="submit" value="Go!">
             </form>
+            </div>
         <nav>
             <ul>
-                <li>Home   Builds  Tutorials  Builds Survey  Community Forums Start Build!</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Builds</a></li>
+                <li><a href="#">Tutorials</a></li>
+                <li><a href="#">Builds Survey</a></li>
+                <li><a href="CommunityForum.html">Help Forum</a></li>
+                <div class ="start-build-btn">
+                <li><a href="#">Start Build!</a></li>
+                </div>
             </ul>
-        </nav><h2>About Us!</h2>
-        <section>
-            <article>
+        </nav>
+        <section class="About">
+            <div class = "contents">
+            <div class="text">
+        <h2>About Us!</h2>
             <p>
                 We are web developers looking to change the world! We are looking to spread the knowledge of computer building and bring a community together that can help others. We plan to provide the best computer builds and tutorials that can be offered!
             </p>
-            </article>
-        </section>
+            </div>
+            <div class="computer">
          <img src="OIP.jpg" alt="computer" width = "500" height = "300">
-        
+            </div>
+        </div>
+    </section>
         <footer>
         <h2>Contact Us!</h2>
-        <p>Email: APEXcomputerBuilding.com | Social Media: Discord | Instagram | FaceBook | X </p>
+        <p>Email: APEXcomputerBuilding@gmail.com</p>
+        <div class="social">
+            <a href="#"><img class="icon" src="discord1.webp" alt="Discord"></a>
+            <a href="#"><img class="icon" src="instagram.webp" alt="Instagram"></a>
+            <a href="#"><img class="icon" src="facebook.webp" alt="Facebook"></a>
+            <a href="#"><img class="icon" src="x.webp" alt="Twitter/X"></a>
+         </div>
         
         </footer>
      </div>
