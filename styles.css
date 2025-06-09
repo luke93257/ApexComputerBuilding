@@ -1,0 +1,106 @@
+/* Sets the General Style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #F5EDDC;
+  color: #1A2A47;
+}
+
+/*Sets the height of the Logo*/
+header img {
+  height: 100px;
+}
+
+
+/* Adds Space above navigation bar */
+nav {
+  margin-top: 20px;
+}
+
+/* Arranges the navigation without padding and bullet points*/
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+/* Makes each link like a block, removes default underlining, text white, pixel border making it look like a button*/
+nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #1A2A47;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #1A2A47;
+  font-weight: bold;
+  
+}
+
+/*Pushes the Start Build button to the right*/
+.start-build-btn { 
+    margin-left: auto;
+}
+
+/*Pushes the search bar to the right and creates some space above it.*/
+.search-bar {
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* Flexbox creates a side-by-side, spaces evenly on page, aligns elements within flexbox vertical postion*/
+.contents {
+  display: flex;
+  
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* Makes main text larger and more readable for the user*/
+.contents .text {
+  font-size: 2.0rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+/* Ensures that image scales properly and rounds edges*/
+.contents .computer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Makes sure the table is full width, no double border for cleaner look and adds space*/
+.forum {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+/* aligns the text in the th and td header. Added padding making it easier to read */
+.forum th, td {
+  text-align: left;
+  padding: 12px 16px;
+}
+
+/* Draws a line seperating the footer, extra space from content above and add spacing from the border*/
+footer {
+  border-top: 2px solid #1A2A47;
+  margin-top: 40px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* Makes it in a flexbox and arranging the icons in a row, centers the icons, adds a gap for each icon, seperates from other content */
+footer .social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Ensures that icons are the same size */
+footer .social img {
+  width: 30px;
+  height: 30px;
+}
