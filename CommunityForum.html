@@ -4,48 +4,135 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         
         <title>Community Forums</title>
+        <link rel="stylesheet" href="styles.css">
     <body>
         <div class="container"></div>
         <h1><img src="ApexComputerBuilding.png" alt="logo" width="200" height="150"> </h1>
-          <input type="text" name="search" placeholder="Explore Builds, Tutorials, and more!">
-                <input type="submit" value="Go!">
+          <div class="search-bar">
+        <form action="#" method="get">
+            <input type="text" name="search" placeholder="Explore Builds, Tutorials, and more!">
+            <input type="submit" value="Go!">
+            </form>
+            </div>
         <nav>
             <ul>
-                <li>Home   Builds  Tutorials  Builds Survey  Community Forums Start Build!</li>
-            </ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Builds</a></li>
+                <li><a href="#">Tutorials</a></li>
+                <li><a href="#">Builds Survey</a></li>
+                <li><a href="CommunityForum.html">Help Forum</a></li>
+             <div class ="start-build-btn">
+                <li><a href="#">Start Build!</a></li>
+                </div>
         </nav>
         
         <h2>Community Forums!</h2>
-        <h3>TroubleShooting&nbsp;&nbsp;&nbsp;Topics&nbsp;&nbsp;&nbsp;Responses</h3>
-        <ul>
-            <li>Why is my computer not turning on?&nbsp;&nbsp;&nbsp;134&nbsp;&nbsp;&nbsp;150</li>
-            <li>My computer is not displaying&nbsp;&nbsp;&nbsp;155&nbsp;&nbsp;&nbsp;179</li>
-            <li>Why is my computer blue screening?&nbsp;&nbsp;&nbsp;132&nbsp;&nbsp;&nbsp;190</li>
-        </ul>
+    <section class="forum"> 
+        <h3>TroubleShooting</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Topics</th>
+                    <th>Posts</th>
+                    <th>Responses</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Why is my computer not turning on?</td>
+                    <td>134</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>My computer is not displaying</td>
+                    <td>120</td>
+                    <td>130</td>
+                </tr>
+                <tr>
+                    <td>Why is my computer overheating?</td>
+                    <td>90</td>
+                    <td>110</td>
+                </tr>
+            </tbody>
+        </table>
 
         <h3>Community Builds</h3>
-         <ul>
-            <li>High Tier Builds&nbsp;&nbsp;&nbsp;170&nbsp;&nbsp;&nbsp;190</li>
-            <li>Mid Tier Builds&nbsp;&nbsp;&nbsp;55&nbsp;&nbsp;&nbsp;79</li>
-            <li>Low Tier Builds&nbsp;&nbsp;&nbsp;100&nbsp;&nbsp;&nbsp;95</li>
-            <li>Aesthetic Builds&nbsp;&nbsp;&nbsp;90&nbsp;&nbsp;&nbsp;201</li>
-        </ul>
-        
+        <table>
+            <tbody>
+                <tr>
+                    <td>Mid Tier Builds</td>
+                    <td>170</td>
+                    <td>190</td>
+                </tr>
+                <tr>
+                    <td>High Tier Builds</td>
+                    <td>15</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Low Tier Builds</td>
+                    <td>90</td>
+                    <td>110</td>
+                </tr>
+                <tr><td>Aesthetic Builds</td>
+                    <td>120</td>
+                    <td>130</td>
+                </tr>
+            </tbody>
+        </table>
+    
         <h3>General Questions</h3>
-         <ul>
-            <li>what websites have the best prices?&nbsp;&nbsp;&nbsp;43&nbsp;&nbsp;&nbsp;78</li>
-            <li>Where to buy parts?&nbsp;&nbsp;&nbsp;15&nbsp;&nbsp;&nbsp;55</li>
-            <li>When will it be in stock?&nbsp;&nbsp;&nbsp;45&nbsp;&nbsp;&nbsp;76</li>
-        </ul>
+         <table>
+            <tbody>
+            <tr>
+                <td>What websites have the best prices?</td>
+                <td>43</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Where to buy parts?</td>
+                <td>15</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>When will it be in stock?</td>
+                <td>45</td>
+                <td>76</td>
+            </tr>
+            </tbody>
+        </table>
+        
          <h3>Software</h3>
-         <ul>
-            <li>What operating system?&nbsp;&nbsp;&nbsp;27&nbsp;&nbsp;&nbsp;58</li>
-            <li>How to get Drivers?&nbsp;&nbsp;&nbsp;53&nbsp;&nbsp;&nbsp;100</li>
-            <li>What Benchmarks are the best?&nbsp;&nbsp;&nbsp;47&nbsp;&nbsp;&nbsp;80</li>
-        </ul>
+         <table>
+            <tbody>
+            <tr>
+                <td>What operating system?</td>
+                <td>27</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>How to get Drivers?</td>
+                <td>53</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>What Benchmarks are the best?</td>
+                <td>37</td>
+                <td>78</td>
+            </tr>
+            </tbody>
+        </table>
+        </section>
+        
         <footer>
         <h2>Contact Us!</h2>
-        <p>Email: APEXcomputerBuilding.com | Social Media: Discord | Instagram | FaceBook | X </p>
+        <p>Email: APEXcomputerBuilding@gmail.com</p>
+        <div class="social">
+            <a href="#"><img class="icon" src="discord1.webp" alt="Discord"></a>
+            <a href="#"><img class="icon" src="instagram.webp" alt="Instagram"></a>
+            <a href="#"><img class="icon" src="facebook.webp" alt="Facebook"></a>
+            <a href="#"><img class="icon" src="x.webp" alt="Twitter/X"></a>
+         </div>
         
         </footer>
     
